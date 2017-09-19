@@ -7,7 +7,11 @@ ubuntu14.04基础镜像-国内apt源
 - ubuntu:14.04
 ## 安装和构建
 1. 安装：[Docker](https://www.docker.com/)
-2. 构建: `docker build -t="shaobin/docker-ubuntu" github.com/birdlegend/docker-ubuntu`
+2. 构建: 
+将该目录所有文件下载到本地，并在本地目录下运行命令：
+```
+docker build -t="shaobin/docker-ubuntu" .
+```
 ## 使用
 ```
 docker run -it --rm shaobin/docker-ubuntu
